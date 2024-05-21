@@ -22,5 +22,7 @@ public:
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    mahasiswa mhs(02, "Paijo Sutrisno", 100);
+
+    return 0;
 }

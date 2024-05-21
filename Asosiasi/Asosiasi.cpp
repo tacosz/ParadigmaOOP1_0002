@@ -34,8 +34,14 @@ public:
     {
         cout << "Dokter \"" << nama << "\" tidak ada\n";
     }
+    void tambahanPasien(pasien*);
+    void cetakPasien();
 };
 
+void pasien::tambahDokter(dokter* pDokter)
+{
+    daftar_dokter.push_back(pDokter);
+}
 int main()
 {
     

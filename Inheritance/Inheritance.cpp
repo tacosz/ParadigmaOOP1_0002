@@ -36,9 +36,17 @@ public:
     {
         cout << "pelajar dihapus\n" << endl;
     }
+    string perkenalan()
+    {
+        return "Hallo, nama saya " + nama + " dari sekolah " + sekolah + "\n\n";
+    }
 };
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    pelajar siswa1("Sascha Danu", "SMA Batik 1 Surakarta");
+    cout << siswa1.perkenalan();
+    cout << "Hasil = " << siswa1.jumlah(10, 90) << endl;
+
+    return 0;
 }

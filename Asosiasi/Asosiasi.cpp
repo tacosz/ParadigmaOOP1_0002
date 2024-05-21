@@ -34,7 +34,7 @@ public:
     {
         cout << "Dokter \"" << nama << "\" tidak ada\n";
     }
-    void tambahanPasien(pasien*);
+    void tambahPasien(pasien*);
     void cetakPasien();
 };
 
@@ -72,9 +72,9 @@ int main()
     pasien* varPasien1 = new pasien("Sutris");
     pasien* varPasien2 = new pasien("Paijo");
 
-    varDokter1->tambahanPasien(varPasien1);
-    varDokter1->tambahanPasien(varPasien2);
-    varDokter2->tambahanPasien(varPasien1);
+    varDokter1->tambahPasien(varPasien1);
+    varDokter1->tambahPasien(varPasien2);
+    varDokter2->tambahPasien(varPasien1);
 
     varDokter1->cetakPasien();
     varDokter2->cetakPasien();

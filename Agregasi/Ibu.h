@@ -16,4 +16,6 @@ public:
 	{
 		cout << "Ibu \"" << nama << "\" tidak ada\n";
 	}
+	void tambahAnak(anak*);
+	void cetakAnak();
 };

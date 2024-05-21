@@ -9,7 +9,6 @@ private:
     string nama;
     float nilai;
 
-
 };
 
 int main()

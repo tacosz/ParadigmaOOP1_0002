@@ -16,6 +16,22 @@ public:
     {
         cout << "orang dihapus\n" << endl;
     }
+
+    int jumlah(int a, int b)
+    {
+        return a + b;
+    }
+};
+
+class pelajar : public orang
+{
+public:
+    string sekolah;
+
+    pelajar(string pNama, string pSekolah) : orang(pNama), sekolah(pSekolah)
+    {
+        cout << "Pelajar dibuat\n" << endl;
+    }
 };
 
 int main()
